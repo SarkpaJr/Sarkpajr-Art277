@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif;
+    padding:0;
+    margin:0; 
+
+}
+.header{
+    background-color: black;
+    min-height: 110px;
+    
+}
+.logo img{
+    width: 80px;
+    height: 80;
+    border-radius: 50%;
+    float: left;
+    padding-left: 40px;
+    margin-top: 18px;
+}
+.nav-bar{
+    text-align:left;
+}
+.nav-bar ul{
+list-style-type: none;
+display: flex;
+float: right;
+padding-right:40px;
+border-radius: 10px;
+border: 10PX;
+box-shadow: 15px 10px 10px goldenrod;
+}
+.nav-bar ul li{
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.nav-bar ul li a{
+    color:gold;
+  text-decoration: none;  
+
+}
+.active, .nav-bar ul li a:hover{
+    color: blue;
+    border-radius: 20px;
+    background-color:white
+    
+}
+.container1{
+width: 100%;
+height: 90vh;
+position: relative
+;
+
+}
+#header_image{
+    width: 100%;
+    height: 100%; 
+}
+.img{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: black;
+}
+div.img img {
+    width: 100%;
+    height: 200px;
+}
+div.img:hover {
+    border: 1px solid blue; 
+    }
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: serif;
+    color:gold;    
+}
+.h2{text-align: center;
+    color: gold;
+}
